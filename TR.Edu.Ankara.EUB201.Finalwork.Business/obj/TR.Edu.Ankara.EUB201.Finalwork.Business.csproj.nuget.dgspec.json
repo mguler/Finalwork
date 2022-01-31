@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Business\\TR.Edu.Ankara.EUB201.Finalwork.Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Business\\TR.Edu.Ankara.EUB201.Finalwork.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Business\\TR.Edu.Ankara.EUB201.Finalwork.Business.csproj",
+        "projectName": "TR.Edu.Ankara.EUB201.Finalwork.Business",
+        "projectPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Business\\TR.Edu.Ankara.EUB201.Finalwork.Business.csproj",
+        "packagesPath": "C:\\Users\\murat.guler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\murat.guler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Local Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\TR.Edu.Ankara.EUB201.Finalwork.Common.csproj": {
+                "projectPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\TR.Edu.Ankara.EUB201.Finalwork.Common.csproj"
+              },
+              "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\TR.Edu.Ankara.EUB201.Finalwork.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\TR.Edu.Ankara.EUB201.Finalwork.Common.csproj",
+        "projectName": "TR.Edu.Ankara.EUB201.Finalwork.Common",
+        "projectPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\TR.Edu.Ankara.EUB201.Finalwork.Common.csproj",
+        "packagesPath": "C:\\Users\\murat.guler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\murat.guler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Local Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess.csproj",
+        "projectName": "TR.Edu.Ankara.EUB201.Finalwork.DataAccess",
+        "projectPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\murat.guler\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\murat.guler\\Desktop\\Desktop\\TR.Edu.Ankara.EUB201.Finalwork\\TR.Edu.Ankara.EUB201.Finalwork.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\murat.guler\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Local Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.Common": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

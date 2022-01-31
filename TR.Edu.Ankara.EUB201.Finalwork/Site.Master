@@ -1,0 +1,91 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TR.Edu.Ankara.EUB201.Finalwork.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <div style="float:left;width:20%">
+
+    <asp:Menu ID="Menu1" runat="server" Orientation="Vertical" RenderingMode="Table" Font-Size="17pt">
+        <DynamicMenuStyle BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="10px" VerticalPadding="10px" />
+        <Items>           
+            <asp:MenuItem Text="Emanet İşlemleri">
+                <asp:MenuItem Text="Yeni" NavigateUrl="~/Loan/Loan.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Emanet Listesi" NavigateUrl="~/Loan/LoanList.aspx"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Envanter">
+                <asp:MenuItem Text="Envanter Girişi" NavigateUrl="~/Books/BookEdit.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Envanter Listesi" NavigateUrl="~/Books/BookList.aspx"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Üyeler">
+                <asp:MenuItem Text="Yeni Üye Kaydet" NavigateUrl="~/Membership/MemberEdit.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Üye Listesi" NavigateUrl="~/Membership/MemberList.aspx"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Kullanıcılar">
+                <asp:MenuItem Text="Yeni Kullanıcı Oluştur" NavigateUrl="~/Users/UserEdit.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Kullanıcı Listesi" NavigateUrl="~/Users/UserList.aspx"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Diğer Tanımlamalar">
+                <asp:MenuItem Text="Yazarlar">
+                    <asp:MenuItem Text="Yeni Kayıt" NavigateUrl="~/Author/AuthorEdit.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Listele" NavigateUrl="~/Author/AuthorList.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Kategoriler">
+                    <asp:MenuItem Text="Yeni Kayıt" NavigateUrl="~/Category/CategoryEdit.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Listele" NavigateUrl="~/Category/CategoryList.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem Text="Cinsiyet Bilgisi">
+                    <asp:MenuItem Text="Yeni Kayıt" NavigateUrl="~/Gender/GenderEdit.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Listele" NavigateUrl="~/Gender/GenderList.aspx"></asp:MenuItem>
+                </asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Kullanıcı İşlemleri">
+                <asp:MenuItem Text="Şifre Değiştir" NavigateUrl="~/Password/ChangePassword.aspx"></asp:MenuItem>
+            </asp:MenuItem>
+            <asp:MenuItem Text="Çıkış" NavigateUrl="Logout.aspx"></asp:MenuItem>
+        </Items>
+        <DynamicHoverStyle BackColor="#0000EE" ForeColor="White" />
+        <DynamicMenuItemStyle Font-Size="17pt"  BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="10px" VerticalPadding="10px" />
+        <StaticHoverStyle BackColor="#0000EE" ForeColor="White" />
+        <StaticMenuItemStyle Font-Size="17pt" BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="10px" VerticalPadding="10px" />
+    </asp:Menu>
+        </div>
+        <div style="width:80%">
+            <asp:ContentPlaceHolder  ID="MainContent" runat="server" ></asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
